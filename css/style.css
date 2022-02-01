@@ -1,0 +1,444 @@
+/***********/
+/* HERO */
+/**********/
+.section-hero {
+  background-image: linear-gradient(to right bottom,rgba(64, 15, 32, 0.9), rgba(86, 20, 43, 0.7)), url("../img/hero-img.jpg");
+  background-size: cover;
+  padding: 4.8rem 0 9.6rem 0;
+  width: 100%;
+  height: 100vh;
+  border-bottom: 15px solid #d6336c;
+}
+@media (max-width: 768px) {
+  .section-hero {
+    background-position: center;
+  }
+}
+
+.heading-primary h1 {
+  font-weight: 500 !important;
+  font-family: 'Alex Brush';
+  font-size: 14rem;
+}
+
+.heading-primary p {
+  font-family: 'Lora';
+  font-size: 2.5rem;
+}
+@media (max-width: 768px) {
+  .heading-primary p {
+    font-size: 2rem;
+  }
+
+  .heading-primary h1 {
+    font-size: 9rem;
+  }
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+  color: white;
+}
+
+.countdown ul li{
+  display: inline-block;
+  padding: 0em 2rem;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 1.6rem;
+  font-size: 1.2rem;
+}
+
+.countdown ul li span {
+  display: block;
+  font-size: 6rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  .countdown ul li{
+    padding: 0em 1rem;
+    font-size: 1.2rem;
+  }
+
+  .countdown ul li span {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+}
+
+/***********/
+/* ABOUT */
+/**********/
+
+.section-about {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+@media (max-width: 768px) {
+
+  .about-relationship.grid--2-cols {
+  grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section-about .heading-primary h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-relationship .about-partner img {
+    width: 17rem;
+    height: 17rem;
+  }
+
+  .about-relationship .about-partner h2 {
+    font-size: 1.9rem;
+  }
+
+  .about-relationship .about-partner h3 {
+    margin-top: -15px;
+    font-size: 2rem;
+  }
+
+  .about-relationship .about-partner p {
+    margin-top: -15px;
+    font-size: 1.5rem;
+  }
+
+  .about-relationship .mt{
+    margin-top: -15rem;
+  }
+}
+
+.section-about p {
+  color: #d6336c !important;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.section-about h1 {
+  color: #56142B !important;
+  font-size: 5rem;
+  margin-top: 1rem !important;
+  letter-spacing: 1px;
+  margin-bottom: 10rem;
+  font-family: 'Lora';
+}
+
+.about-relationship {
+border-bottom: 1px solid #d6336c;
+}
+
+.about-partner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 13rem;
+}
+
+.about-partner h2 {
+  color: #d6336c;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.about-partner h3 {
+  color: #56142B;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-partner p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #56142B;
+}
+
+.about-partner img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 9px;
+  margin-bottom: 3rem;
+}
+
+/***********/
+/* GALLERY */
+/**********/
+
+.section-gallery h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  color: #d6336c;
+  font-weight: 400;
+  margin-bottom: 11rem;
+}
+
+.gallery {
+  display: grid;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+
+  .gallery.grid--3-cols {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  .section-gallery h1 {
+    font-size: 2.5rem;
+  }
+
+  .section-gallery .gallery img {
+      width: 15rem;
+  }
+
+  .section-gallery .gallery .img-left {
+    margin-left: -10rem;
+  }
+
+  .section-gallery .gallery .img-right {
+    margin-left: 0rem;
+  }
+  
+}
+
+.gallery img {
+  width: 25rem;
+  border-radius: 7px;
+  margin-bottom: 6rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  transition: all 0.4s;
+}
+
+.gallery .img-left {
+  margin-right: -10rem;
+}
+
+.gallery .img-right {
+  margin-left: -10rem;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+/***********/
+/* EVENT*/
+/**********/
+
+.section-event {
+  margin-top: 8rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+
+  .section-event {
+    margin-top: 15rem;
+  }
+
+  .section-event .heading-primary {
+    margin-top: -10rem;
+  }
+
+  .section-event .heading-primary p {
+    font-size: 4rem;
+  }
+
+  .event.grid--2-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .event .event-special-mt {
+    margin-top: -15rem;
+  }
+}
+
+.section-event p {
+  color: #d6336c;
+  font-weight: 400;
+}
+
+.section-event h1 {
+  color: #56142B;
+  margin-top: 5px !important;
+  font-size: 5rem;
+  font-family:'Lora';
+}
+
+.event-special {
+  max-width: 55rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 13rem;
+}
+
+.event-special .icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.event-special h2 {
+  color: #d6336c;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-bottom: 1.6rem;
+}
+
+.event-special p {
+  font-size: 2rem;
+}
+
+.event-special p {
+  margin-left: 1.6rem;
+}
+
+.event-date {
+  border-top: 1px solid #d6336c;
+  border-bottom: 1px solid #d6336c;
+  padding-top: 1.6rem;
+}
+
+.event-date > div {
+  margin-bottom: 1.6rem;
+}
+
+.event-date .icon {
+  margin-bottom: 3rem;
+}
+
+/*************/
+/* THANK YOU */
+/*************/
+
+.section-thank-you {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  background-color: #AB2956;
+  border-radius: 7px;
+  height: 25rem;
+}
+
+@media (max-width: 768px) { 
+
+  #margin-mt {
+    grid-template-columns: 1fr;
+    margin: 5rem 5rem;
+  align-items: center;
+  background-color: #AB2956;
+  border-radius: 7px;
+  height: 63rem;
+  }
+
+  #margin-mt img {
+    margin-top: 3rem;
+    width: 27rem;
+  }
+
+  #margin-mt p {
+    font-size: 1.8rem;
+  }
+
+  .section-thank-you.container {
+    width: 34rem;
+  }
+
+}
+
+.thank-you img{
+  width: 33rem;
+  border-radius: 7px;
+}
+
+.thank-you p {
+  margin-top: 2rem;
+  font-size: 2.3rem;
+  font-style: italic;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 4rem;
+  /* text-align: justify; */
+  letter-spacing: 0.5px;
+}
+
+/**********************/
+/* PROTOKOL KESEHATAN */
+/**********************/
+.section-protokol-kesehatan h1 {
+  font-size: 3rem;
+  margin-top: 10rem;
+  color: #56142B;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) { 
+  .section-protokol-kesehatan h1 {
+    font-size: 2.5rem;
+  }
+
+  .protokols .svg-icon {
+  width: 7rem;
+  height: 7rem;
+  color: #56142B;
+  display: grid;
+  margin-top: 5rem;
+}
+
+
+}
+
+.protokols {
+  display: grid;
+  justify-items: center;
+  margin-top: 4rem;
+}
+
+.protokols p {
+  color: #56142B;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.svg-icon {
+  width: 9rem;
+  height: 9rem;
+  color: #56142B;
+  display: grid;
+  margin-top: 5rem;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 5rem;
+  width: 100%;
+  height: 2rem;
+  background-color: #56142B;
+}
+
+.protokols p {
+  font-weight: bold;
+}
+
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
