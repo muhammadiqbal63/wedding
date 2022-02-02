@@ -35,11 +35,36 @@
   }
 }
 
+.btn {
+  width: 20rem;
+  height: 4rem;
+  border-radius: 7px;
+  background-color: #d6336c;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  transition: all 1s;
+  background-color: #AB2956;
+}
+
 #days,
 #hours,
 #minutes,
 #seconds {
   color: white;
+}
+
+.countdown ul {
+  margin-bottom: 6rem;
 }
 
 .countdown ul li{
@@ -76,6 +101,8 @@
 .section-about {
   padding: 4.8rem 0 9.6rem 0;
 }
+
+
 
 @media (max-width: 768px) {
 
@@ -375,6 +402,65 @@ border-bottom: 1px solid #d6336c;
 }
 
 /**********************/
+/****** TRANSFER ******/  
+/**********************/
+
+.transfer h1 {
+  text-align: center;
+  margin-top: 12rem;
+  font-size: 4rem;
+  color: #56142B;
+}
+
+.transfer p {
+  text-align: center;
+  color: #AB2956;
+  font-size: 1.5rem;
+  /* margin-left: 25rem; */
+  /* width: 60rem; */
+  line-height: 1.2;
+  /* margin-top: 2rem; */
+  max-width: 70rem;
+  padding: 0 3.2rem;
+  margin: 2rem auto;
+}
+
+.transfer-no img {
+  width: 20rem;
+}
+
+.d-flex {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.transfer-no p {
+  text-align: center;
+  color: #AB2956;
+  font-size:1.5rem;
+}
+
+.transfer-no .p-b {
+  margin-top: -1rem;
+  border-bottom: 1px solid #56142B;
+}
+
+.transfer-hadiah h4 {
+  text-align: center;
+  font-size: 2rem;
+  color: #56142B;
+  margin-top: 4rem;
+}
+
+.transfer-hadiah p {
+  text-align: center;
+  color: #AB2956;
+  font-size: 1.3rem;
+}
+
+/**********************/
 /* PROTOKOL KESEHATAN */
 /**********************/
 .section-protokol-kesehatan h1 {
@@ -389,13 +475,23 @@ border-bottom: 1px solid #d6336c;
     font-size: 2.5rem;
   }
 
+  /* .protokol .p-middle img {
+    margin: 0 -40rem;
+  } */
+
+  
+
   .protokols .svg-icon {
-  width: 7rem;
-  height: 7rem;
+  width: 5rem;
+  height: 5rem;
   color: #56142B;
   display: grid;
   margin-top: 5rem;
-}
+  }
+
+  .section-protokol .protokol {
+    padding: 10px;
+  }
 
 
 }

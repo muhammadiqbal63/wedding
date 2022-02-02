@@ -1,3 +1,10 @@
+/* 
+  BNI 
+  ANISA KENCANA : 0835 6744 82
+
+  sukoyoso RT 01 RW 01 kelurahan kramatan kecamatan wonosobo jawa tengah(sebelah masjid mardotila)
+*/
+
 * {
   padding: 0;
   margin: 0;
@@ -9,6 +16,7 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {

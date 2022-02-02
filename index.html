@@ -35,15 +35,19 @@
             <li><span id="minutes">MINUTES</span>MINUTES</li>
             <li><span id="seconds">SECONDS</span>SECONDS</li>
           </ul>
+
+          <button class="btn" id="button">
+            <a href="#sectionAbout">Undangan</a>
+          </button>
         </div>
       </div>
     </section>
 
     <!--ABOUT-->
 
-    <section class="section-about">
+    <section class="section-about" id="sectionAbout">
       <div class="heading-primary center-text">
-        <h1>PASANGAN MEMPELAI</h1>
+        <h1 id="sectionAbout">PASANGAN MEMPELAI</h1>
       </div>
 
       <div class="about-relationship container-about grid grid--2-cols">
@@ -126,13 +130,12 @@
                 <ion-icon class="icon" name="calendar-outline"></ion-icon>
                 <div class="event-content">
                   <p>10.30 WIB s/d selesai</p>
-                  <p>Gedung Balai Prajurit</p>
                 </div>
               </div>
 
               <div class="d-flex">
                 <ion-icon class="icon" name="home-outline"></ion-icon>
-                <p class="event-content">Masjid Raya Baitul Izzah</p>
+                <p class="event-content">Gedung Balai Prajurit</p>
               </div>
             </div>
           </div>
@@ -160,12 +163,47 @@
       </div>
     </section>
 
+    <!-- TRANSFER -->
+    <section class="section-transfer container">
+      <div class="transfer container">
+        <h1>Amplop Digital</h1>
+        <p>
+          Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan
+          jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado
+          secara cashless
+        </p>
+      </div>
+
+      <div class="transfer-no d-flex">
+        <div>
+          <img src="img/bni-logo.png" alt="bni logo" />
+        </div>
+
+        <div>
+          <p>No. Rekening : 0835 6744 82</p>
+          <p class="p-b">A/n ANISA KENCANA</p>
+        </div>
+      </div>
+
+      <div class="transfer-hadiah">
+        <h4>Kirim Hadiah</h4>
+        <p>
+          Sukoyoso RT 01 RW 01 Kel. kramatan Kec. Wonosobo Jawa Tengah(sebelah
+          masjid mardotila)
+        </p>
+      </div>
+    </section>
+
     <!-- PROTOKOL KESEHATAN-->
     <section class="section-protokol-kesehatan container">
       <h1 class="center-text">PROTOKOL KESEHATAN</h1>
+      <p>
+        Guna mencegah penyebaran Covid-19, diharapkan bagi tamu undangan untuk
+        mematuhi Protokol Kesehatan di bawah ini :
+      </p>
 
       <div class="protokol grid grid--3-cols">
-        <div class="protokols">
+        <div class="protokols mid-left">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="svg-icon"
@@ -189,7 +227,7 @@
           <p>Gunakan Masker</p>
         </div>
 
-        <div class="protokols">
+        <div class="protokols mid-right">
           <ion-icon class="svg-icon" name="close-outline"></ion-icon>
           <p>Jaga Jarak</p>
         </div>
@@ -198,14 +236,23 @@
 
     <footer></footer>
 
-    <!-- <audio
-      src="music/melepas_lajang.mp3"
-      id="my_audio"
-      loop="loop"
-      autoplay="autoplay"
-    ></audio>
+    <audio id="mySong">
+      <source src="music/melepas_lajang.mp3" type="audio/mp3" />
+    </audio>
 
-     -->
+    <script>
+      // var mySong = document.getElementById('mySong');
+      // var myButton = document.getElementById('button');
+
+      // myButton.onclick = function () {
+      //   if (mySong.paused) {
+      //     mySong.play();
+      //   } else {
+      //     mySong.pause();
+      //   }
+      // };
+    </script>
+
     <script src="script.js"></script>
     <script
       type="module"
