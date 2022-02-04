@@ -70,7 +70,7 @@
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    background: #fff;
+    background: #ab2956;
     border: 8px solid rgba(211,207,205,1);
     float: left;
     margin-right: 25px;
@@ -143,8 +143,8 @@
     margin-top: 0;
 }
 .main-timeline .description{
-    font-size: 14px;
-    color: #333;
+    font-size: 2rem;
+    color: #ab2956;
     text-align: justify;
 }
 .main-timeline .icon{
