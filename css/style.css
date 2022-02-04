@@ -498,6 +498,34 @@ border-bottom: 1px solid #d6336c;
 .transfer-hadiah p {
   font-size: 1.6rem;
 }
+/**********************/
+/* FORM ***************/
+/**********************/
+
+.section-form {
+  margin-top: 7rem;
+  width: 100%;
+  background-color: #15050B;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.section-form .form {
+  margin-top: 3rem;
+}
+
+.form h1 {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+}
+
+.form p {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 4rem;
+}
+
 
 /**********************/
 /* PROTOKOL KESEHATAN */
