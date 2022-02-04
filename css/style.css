@@ -372,8 +372,10 @@ border-bottom: 1px solid #d6336c;
   margin-bottom: 1.6rem;
 }
 
-.event-date .icon {
-  margin-bottom: 3rem;
+.event-date .event-icon {
+  margin-bottom: 1rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 /*************/

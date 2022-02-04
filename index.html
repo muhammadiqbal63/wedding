@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/queries.css" />
     <link rel="stylesheet" href="css/timeline.css" />
     <link rel="stylesheet" href="css/form.css" />
+
+    <script src="./script.js"></script>
   </head>
   <body>
     <!-- HERO -->
@@ -190,7 +192,7 @@
           <div class="event-schedule grid">
             <div class="event-date">
               <div class="d-flex">
-                <ion-icon class="icon" name="calendar-outline"></ion-icon>
+                <ion-icon class="event-icon" name="calendar-outline"></ion-icon>
                 <div class="event-content">
                   <p>Minggu, 20 Februari 2022</p>
                   <p>09.00 WIB s/d selesai</p>
@@ -198,7 +200,7 @@
               </div>
 
               <div class="d-flex">
-                <ion-icon class="icon" name="home-outline"></ion-icon>
+                <ion-icon class="event-icon" name="home-outline"></ion-icon>
                 <p class="event-content">Masjid Raya Baitul Izzah</p>
               </div>
             </div>
@@ -211,19 +213,27 @@
           <div class="event-schedule grid">
             <div class="event-date">
               <div class="d-flex">
-                <ion-icon class="icon" name="calendar-outline"></ion-icon>
+                <ion-icon class="event-icon" name="calendar-outline"></ion-icon>
                 <div class="event-content">
+                  <p>Minggu, 20 Februari 2022</p>
                   <p>10.30 WIB s/d selesai</p>
                 </div>
               </div>
 
               <div class="d-flex">
-                <ion-icon class="icon" name="home-outline"></ion-icon>
+                <ion-icon class="event-icon" name="home-outline"></ion-icon>
                 <p class="event-content">Gedung Balai Prajurit</p>
               </div>
             </div>
           </div>
         </div>
+
+        <button class="btn-location">
+          <a
+            href="https://www.google.com/maps/place/Balai+Prajurit+Garuda+Mas/@-3.8210293,102.283722,17z/data=!4m18!1m12!4m11!1m3!2m2!1d102.2856317!2d-3.8202265!1m6!1m2!1s0x2e36ba9c44ecdf4b:0x5d7a92fe768b62fc!2sgedung+balai+prajurit+kota+bengkulu!2m2!1d102.2854737!2d-3.8207883!3m4!1s0x2e36ba9c44ecdf4b:0x5d7a92fe768b62fc!8m2!3d-3.8207883!4d102.2854737"
+            >Lokasi</a
+          >
+        </button>
       </div>
     </section>
 
@@ -403,6 +413,7 @@
     </script>
 
     <script src="script.js"></script>
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
