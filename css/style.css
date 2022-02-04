@@ -95,14 +95,29 @@
 }
 
 /***********/
-/* ABOUT */
-/**********/
+/* ABOUT ***/
+/***********/
 
 .section-about {
   padding: 4.8rem 0 9.6rem 0;
 }
 
+.heading-primary .pterimakasih {
+  font-size: 2rem !important; 
+  max-width: 70rem;
+  margin: 0 auto;
+  margin-top: -6rem;
+  margin-bottom: 6rem;
+}
 
+.heading-primary .pass {
+  font-size: 3rem !important; 
+  max-width: 70rem;
+  margin: 0 auto;
+  margin-top: -6rem;
+  margin-bottom: 8rem;
+  color: #AB2956;
+}
 
 @media (max-width: 768px) {
 
@@ -190,6 +205,21 @@ border-bottom: 1px solid #d6336c;
   height: 20rem;
   border-radius: 9px;
   margin-bottom: 3rem;
+}
+
+/************/
+/* TIMELINE */
+/************/
+
+.section-timeline {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.section-timeline h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 6rem;
+  color: #AB2956;
 }
 
 /***********/
@@ -460,14 +490,28 @@ border-bottom: 1px solid #d6336c;
   font-size: 1.3rem;
 }
 
+.transfer-hadiah h4 {
+  font-size: 3.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.transfer-hadiah p {
+  font-size: 1.6rem;
+}
+
 /**********************/
 /* PROTOKOL KESEHATAN */
 /**********************/
 .section-protokol-kesehatan h1 {
-  font-size: 3rem;
-  margin-top: 10rem;
+  font-size: 3.5rem;
+  margin-top: 15rem;
   color: #56142B;
-  font-weight: 400;
+}
+
+.section-protokol-kesehatan p{
+  font-size: 1.6rem;
+  text-align: center;
+  color: #AB2956;
 }
 
 @media (max-width: 768px) { 
