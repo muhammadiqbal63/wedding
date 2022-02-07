@@ -231,6 +231,7 @@
         <button class="btn-location">
           <a
             href="https://www.google.com/maps/place/Balai+Prajurit+Garuda+Mas/@-3.8210293,102.283722,17z/data=!4m18!1m12!4m11!1m3!2m2!1d102.2856317!2d-3.8202265!1m6!1m2!1s0x2e36ba9c44ecdf4b:0x5d7a92fe768b62fc!2sgedung+balai+prajurit+kota+bengkulu!2m2!1d102.2854737!2d-3.8207883!3m4!1s0x2e36ba9c44ecdf4b:0x5d7a92fe768b62fc!8m2!3d-3.8207883!4d102.2854737"
+            target="_blank"
             >Lokasi</a
           >
         </button>
@@ -400,16 +401,16 @@
     </audio>
 
     <script>
-      // var mySong = document.getElementById('mySong');
-      // var myButton = document.getElementById('button');
+      var mySong = document.getElementById('mySong');
+      var myButton = document.getElementById('button');
 
-      // myButton.onclick = function () {
-      //   if (mySong.paused) {
-      //     mySong.play();
-      //   } else {
-      //     mySong.pause();
-      //   }
-      // };
+      myButton.onclick = function () {
+        if (mySong.paused) {
+          mySong.play();
+        } else {
+          mySong.pause();
+        }
+      };
     </script>
 
     <script src="script.js"></script>

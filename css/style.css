@@ -288,6 +288,28 @@ border-bottom: 1px solid #d6336c;
 /* EVENT*/
 /**********/
 
+.btn-location {
+  margin-top: -15rem;
+  margin-left: 47rem;
+  width: 25rem;
+  height: 4rem;
+  background-color: #d6336c;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-location:hover {
+  background-color: #AB2956;
+}
+
+.btn-location a {
+  text-decoration: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+}
+
 .section-event {
   margin-top: 8rem;
   width: 100%;
