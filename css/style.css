@@ -9,6 +9,12 @@
   /* border-bottom: 15px solid #d6336c; */
 }
 
+@media (max-width: 768px) {
+  .section-opening {
+    width: 32rem;
+  }
+}
+
 .image-primary img {
   width: 25rem;
   border-radius: 7px;
@@ -495,7 +501,7 @@ border-bottom: 1px solid #d6336c;
   }
 
   .section-thank-you.container {
-    width: 34rem;
+    width: 30rem;
   }
 
 }
@@ -592,6 +598,12 @@ border-bottom: 1px solid #d6336c;
   width: 100%;
   background-color: #15050B;
   padding: 4.8rem 0 9.6rem 0;
+}
+
+@media (max-width: 768px) { 
+  .section-form .form {
+    width: 38rem;
+  }
 }
 
 .section-form .form {
@@ -713,6 +725,11 @@ footer {
     margin: 0 0 25px;
 }
 
+@media (max-width: 768px) { 
+  .field .bubble {
+    width: 32rem;
+  }
+}
 .field .bubble .txt{
       padding: 8px 55px 8px 14px;
 }
