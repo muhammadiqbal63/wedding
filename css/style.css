@@ -11,7 +11,7 @@
 
 @media (max-width: 768px) {
   .section-opening {
-    width: 36rem;
+    width: 100%
   }
 
   .section-opening .image-primary img {
@@ -19,11 +19,11 @@
   }
 
   .section-opening .text-primary h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .section-opening .text-primary p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     width: 30rem;
   }
@@ -85,7 +85,7 @@
 @media (max-width: 768px) {
   .section-hero {
     background-position: center;
-    width: 36rem;
+    width: 100%;
   }
 }
 
@@ -106,7 +106,7 @@
   }
 
   .heading-primary h1 {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 }
 
@@ -180,41 +180,43 @@
 
 @media (max-width: 768px) { 
   .section-about {
-    width: 36rem;
+    width: 100%;
   }
 
   .section-about .heading-primary h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
   }
 
   .section-about .heading-primary .pass {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 3rem;
   }
 
   .section-about .heading-primary .pterimakasih {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     width: 30rem;
   }
 
   .about-relationship .about-partner img {
-    width: 15rem;
-    height: 15rem;
+    width: 16rem;
+    height: 16rem;
   }
 
   .about-relationship .about-partner h2 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .about-relationship .about-partner h3 {
     margin-top: -15px;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .about-relationship .about-partner p {
-    margin-top: -15px;
-    font-size: 1.3rem;
+    margin-top: -10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
   }
 }
 
@@ -314,11 +316,11 @@ border-bottom: 1px solid #d6336c;
   }
 
   .section-timeline {
-    width: 36rem;
+    width: 100%;
   }
 
   .section-timeline .htimeline {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 }
 
@@ -354,11 +356,11 @@ border-bottom: 1px solid #d6336c;
   }
 
   .section-gallery {
-    width: 36rem;
+    width: 100%;
   }
 
   .section-gallery h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .section-gallery .gallery img {
@@ -468,7 +470,7 @@ border-bottom: 1px solid #d6336c;
 
   .section-event {
     margin-top: 15rem;
-    width: 36rem;
+    width: 28rem;
   }
 
   .section-event .heading-primary {
@@ -476,11 +478,11 @@ border-bottom: 1px solid #d6336c;
   }
 
   .section-event .heading-primary h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .section-event .heading-primary p {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .event.grid--2-cols {
@@ -490,6 +492,20 @@ border-bottom: 1px solid #d6336c;
   .event .event-special-mt {
     margin-top: -15rem;
   }
+
+  .event .event-special h2 {
+    font-size: 2rem;
+  }
+
+  .event-schedule .event-date .event-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .d-flex .event-content {
+    font-size: 1.2rem;
+  }
+
 }
 
 .section-event p {
@@ -596,7 +612,24 @@ border-bottom: 1px solid #d6336c;
 /**********************/
 @media (max-width: 768px) {  
   .section-transfer {
-    width: 36rem;
+    width: 28rem;
+  }
+
+  .section-transfer .transfer p {
+    font-size: 1.5rem;
+  }
+
+  .section-transfer .transfer-no img {
+    width: 15rem;
+  }
+
+  .section-transfer .transfer-hadiah h4 {
+    font-size: 2rem;
+  }
+
+  .section-transfer .transfer-hadiah p {
+    font-size: 1.2rem;
+    line-height: 1.5;
   }
 }
 .transfer h1 {
@@ -675,7 +708,7 @@ border-bottom: 1px solid #d6336c;
 
 @media (max-width: 768px) { 
   .section-form {
-    width: 36rem;
+    width: 28rem;
   }
 
   .section-form .form h1 {
@@ -725,25 +758,19 @@ border-bottom: 1px solid #d6336c;
 
 @media (max-width: 768px) { 
   .section-protokol-kesehatan {
-    width: 36rem;
+    width: 28rem;
   }
 
   .section-protokol-kesehatan h1 {
     font-size: 2.5rem;
   }
 
-  .protokols .svg-icon {
-  width: 5rem;
-  height: 5rem;
-  color: #56142B;
-  display: grid;
-  margin-top: 5rem;
+   .section-protokol-kesehatan p {
+     text-align: center;
+     width: 20rem;
+     font-size: 1.5rem;
+     margin-left: 35px;
   }
-
-  .section-protokol .protokol {
-    padding: 10px;
-  }
-
 
 }
 
@@ -773,6 +800,12 @@ footer {
   width: 100%;
   height: 2rem;
   background-color: #56142B;
+}
+
+@media (max-width: 768px) { 
+  footer {
+    width: 28rem;
+  }
 }
 
 .protokols p {
@@ -809,7 +842,7 @@ footer {
 
 @media (max-width: 768px) { 
   .field .bubble {
-    width: 30rem;
+    width: 21.5rem;
   }
 }
 .field .bubble .txt{
