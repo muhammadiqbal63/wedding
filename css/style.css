@@ -11,7 +11,21 @@
 
 @media (max-width: 768px) {
   .section-opening {
-    width: 32rem;
+    width: 36rem;
+  }
+
+  .section-opening .image-primary img {
+    width: 20rem;
+  }
+
+  .section-opening .text-primary h1 {
+    font-size: 2rem;
+  }
+
+  .section-opening .text-primary p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    width: 30rem;
   }
 }
 
@@ -21,6 +35,7 @@
 }
 
 .text-primary h1 {
+  font-family: 'Lora';
   color: white;
   font-size: 3rem;
   text-align: center;
@@ -70,6 +85,7 @@
 @media (max-width: 768px) {
   .section-hero {
     background-position: center;
+    width: 36rem;
   }
 }
 
@@ -162,8 +178,48 @@
   padding: 4.8rem 0 9.6rem 0;
 }
 
+@media (max-width: 768px) { 
+  .section-about {
+    width: 36rem;
+  }
+
+  .section-about .heading-primary h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-about .heading-primary .pass {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
+  .section-about .heading-primary .pterimakasih {
+    font-size: 1.5rem;
+    width: 30rem;
+  }
+
+  .about-relationship .about-partner img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .about-relationship .about-partner h2 {
+    font-size: 1.7rem;
+  }
+
+  .about-relationship .about-partner h3 {
+    margin-top: -15px;
+    font-size: 1.7rem;
+  }
+
+  .about-relationship .about-partner p {
+    margin-top: -15px;
+    font-size: 1.3rem;
+  }
+}
+
 .heading-primary .pterimakasih {
-  font-size: 2rem !important; 
+  font-size: 2rem; 
   max-width: 70rem;
   margin: 0 auto;
   margin-top: -6rem;
@@ -171,7 +227,7 @@
 }
 
 .heading-primary .pass {
-  font-size: 3rem !important; 
+  font-size: 3rem; 
   max-width: 70rem;
   margin: 0 auto;
   margin-top: -6rem;
@@ -183,30 +239,6 @@
 
   .about-relationship.grid--2-cols {
   grid-template-columns: repeat(1, 1fr);
-  }
-
-  .section-about .heading-primary h1 {
-    font-size: 4rem;
-    margin-bottom: 2rem;
-  }
-
-  .about-relationship .about-partner img {
-    width: 17rem;
-    height: 17rem;
-  }
-
-  .about-relationship .about-partner h2 {
-    font-size: 1.9rem;
-  }
-
-  .about-relationship .about-partner h3 {
-    margin-top: -15px;
-    font-size: 2rem;
-  }
-
-  .about-relationship .about-partner p {
-    margin-top: -15px;
-    font-size: 1.5rem;
   }
 
   .about-relationship .mt{
@@ -275,6 +307,21 @@ border-bottom: 1px solid #d6336c;
   padding: 4.8rem 0 9.6rem 0;
 }
 
+@media (max-width: 768px) {
+
+  .about-relationship.grid--2-cols {
+  grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section-timeline {
+    width: 36rem;
+  }
+
+  .section-timeline .htimeline {
+  font-size: 3rem;
+}
+}
+
 .section-timeline h1 {
   text-align: center;
   font-size: 5rem;
@@ -306,8 +353,12 @@ border-bottom: 1px solid #d6336c;
     justify-items: center;
   }
 
+  .section-gallery {
+    width: 36rem;
+  }
+
   .section-gallery h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .section-gallery .gallery img {
@@ -348,6 +399,33 @@ border-bottom: 1px solid #d6336c;
 /* EVENT*/
 /**********/
 
+.event {
+  height: 25rem;
+}
+
+.btn-event {
+  width: 20rem;
+  height: 4rem;
+  border-radius: 7px;
+  background-color: #d6336c;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 4rem;
+  margin-bottom: 7rem;
+}
+
+.btn-event a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-event:hover {
+  transition: all 1s;
+  background-color: #AB2956;
+}
+
 .btn-location {
   margin-top: -10rem;
   margin-bottom: 7rem;
@@ -363,6 +441,10 @@ border-bottom: 1px solid #d6336c;
 @media (max-width: 768px) {
   .event .btn-location a{
     /* margin-right: 7rem; */
+  }
+
+  .btn-event {
+    margin-top: 40rem;
   }
 }
 
@@ -386,14 +468,19 @@ border-bottom: 1px solid #d6336c;
 
   .section-event {
     margin-top: 15rem;
+    width: 36rem;
   }
 
   .section-event .heading-primary {
     margin-top: -10rem;
   }
 
+  .section-event .heading-primary h1 {
+    font-size: 3rem;
+  }
+
   .section-event .heading-primary p {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .event.grid--2-cols {
@@ -482,26 +569,8 @@ border-bottom: 1px solid #d6336c;
 
 @media (max-width: 768px) { 
 
-  #margin-mt {
-    grid-template-columns: 1fr;
-    margin: 5rem 5rem;
-  align-items: center;
-  background-color: #AB2956;
-  border-radius: 7px;
-  height: 63rem;
-  }
-
-  #margin-mt img {
-    margin-top: 3rem;
-    width: 27rem;
-  }
-
-  #margin-mt p {
-    font-size: 1.8rem;
-  }
-
-  .section-thank-you.container {
-    width: 30rem;
+  .section-thank-you {
+    width: 36rem;
   }
 
 }
@@ -525,7 +594,11 @@ border-bottom: 1px solid #d6336c;
 /**********************/
 /****** TRANSFER ******/  
 /**********************/
-
+@media (max-width: 768px) {  
+  .section-transfer {
+    width: 36rem;
+  }
+}
 .transfer h1 {
   text-align: center;
   margin-top: 12rem;
@@ -601,9 +674,20 @@ border-bottom: 1px solid #d6336c;
 }
 
 @media (max-width: 768px) { 
-  .section-form .form {
-    width: 38rem;
+  .section-form {
+    width: 36rem;
   }
+
+  .section-form .form h1 {
+    font-size: 3rem;
+  }
+
+  .section-form .form p {
+    font-size: 2.3rem;
+  }
+  /* .section-form .form {
+    width: 38rem;
+  } */
 }
 
 .section-form .form {
@@ -640,15 +724,13 @@ border-bottom: 1px solid #d6336c;
 }
 
 @media (max-width: 768px) { 
+  .section-protokol-kesehatan {
+    width: 36rem;
+  }
+
   .section-protokol-kesehatan h1 {
     font-size: 2.5rem;
   }
-
-  /* .protokol .p-middle img {
-    margin: 0 -40rem;
-  } */
-
-  
 
   .protokols .svg-icon {
   width: 5rem;
@@ -727,7 +809,7 @@ footer {
 
 @media (max-width: 768px) { 
   .field .bubble {
-    width: 32rem;
+    width: 30rem;
   }
 }
 .field .bubble .txt{
