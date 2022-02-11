@@ -1,3 +1,9 @@
+function getValueDate(value) {
+  if (value.toString().length === 1) return `0${value}`;
+
+  return value;
+}
+
 (function () {
   const second = 1000,
     minute = second * 60,
@@ -25,15 +31,17 @@
       const now = new Date().getTime(),
         distance = countDown - now;
 
-      (document.getElementById('days').innerText = Math.floor(distance / day)),
-        (document.getElementById('hours').innerText = Math.floor(
-          (distance % day) / hour
+      (document.getElementById('days').innerText = getValueDate(
+        Math.floor(distance / day)
+      )),
+        (document.getElementById('hours').innerText = getValueDate(
+          Math.floor((distance % day) / hour)
         )),
-        (document.getElementById('minutes').innerText = Math.floor(
-          (distance % hour) / minute
+        (document.getElementById('minutes').innerText = getValueDate(
+          Math.floor((distance % hour) / minute)
         )),
-        (document.getElementById('seconds').innerText = Math.floor(
-          (distance % minute) / second
+        (document.getElementById('seconds').innerText = getValueDate(
+          Math.floor((distance % minute) / second)
         ));
 
       //do something later when date is reached
