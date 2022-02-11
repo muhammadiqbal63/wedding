@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/queries.css" />
     <link rel="stylesheet" href="css/timeline.css" />
     <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/clipboard.css" />
 
     <script src="./script.js"></script>
   </head>
@@ -307,9 +308,12 @@
             <img src="img/bni-logo.png" alt="bni logo" />
           </div>
 
-          <div>
-            <p>No. Rekening : 0835 6744 82</p>
-            <p class="p-b">A/n ANISA KENCANA</p>
+          <div class="container-transfer">
+            <div class="label">No Rekening:</div>
+            <div class="copy-text">
+              <input type="text" class="text" value="0835 6744 82" />
+              <button>Copy text</button>
+            </div>
           </div>
         </div>
 
@@ -425,8 +429,10 @@
     </div>
 
     <audio id="mySong">
-      <source src="music/melepas_lajang.mp3" type="audio/mp3" />
+      <source src="music/zack.mp3" type="audio/mp3" />
     </audio>
+
+    <script src="dist/clipboard.min.js"></script>
 
     <script>
       var mySong = document.getElementById('mySong');
@@ -442,6 +448,7 @@
     </script>
 
     <script src="script.js"></script>
+    <script src="clipboard.js"></script>
 
     <script
       type="module"

@@ -1,3 +1,19 @@
+/* Copy to clipboard */
+/* Just to play with animations */
+.copiedtext {
+  position: absolute;
+  left: 0; top: 0; right: 0;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(-1em);
+  color: #000;
+  transition: all .500s;
+}
+.copied .copiedtext {
+  opacity: 1;
+  transform: translateY(-2em);
+}
+
 /* MODAL */
 .modal-target {
   width: 500px;
@@ -728,6 +744,28 @@ border-bottom: 1px solid #d6336c;
 /**********************/
 /****** TRANSFER ******/  
 /**********************/
+.btn-rekening {
+  width: 20rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+  border-radius: 7px;
+  background-color: #d6336c;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-rekening a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-rekening:hover {
+  transition: all 1s;
+  background-color: #AB2956;
+}
+
 @media (max-width: 768px) {  
   .section-transfer {
     margin-top: -5rem;
