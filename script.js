@@ -75,23 +75,22 @@ window.addEventListener('DOMContentLoaded', () => {
   buttonBuka.addEventListener('click', openInvitation);
 });
 
-// Get the modal
-var modal = document.getElementById('myModal');
+// Modal Setup
+var modal = document.getElementById('modal');
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById('img01');
-var captionText = document.getElementById('caption');
-img.onclick = function () {
-  modal.style.display = 'block';
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-};
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName('close')[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
+var modalClose = document.getElementById('modal-close');
+modalClose.addEventListener('click', function () {
   modal.style.display = 'none';
-};
+});
+
+// global handler
+document.addEventListener('click', function (e) {
+  if (e.target.className.indexOf('modal-target') !== -1) {
+    var img = e.target;
+    var modalImg = document.getElementById('modal-content');
+    var captionText = document.getElementById('modal-caption');
+    modal.style.display = 'block';
+    modalImg.src = img.src;
+    captionText.innerHTML = img.alt;
+  }
+});
